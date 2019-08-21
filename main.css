@@ -1,0 +1,33 @@
+/* 1: Selector to select elments you're styling*/
+/* 2: Declaration block where your CSS goes*/
+/* 3: Declarations of CSS rules inside the declartion block*/
+
+table, th, td {
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+table{
+    width: 100%;
+    background-color: white;
+}
+
+body{
+    background-color: Khaki;
+    font-size: 18pt;
+}
+
+h1{
+    text-align: center;
+}
+
+th {
+    font-size: 20pt;
+    text-decoration: underline;
+}
+td{
+    text-align: center;
+}
